@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteo</title>
+    <!--icon-->
+    <link href="img/icon.png">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <!--Style-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="img/icon.png" alt="icon">
+            <h1>SMART METEO</h1>
+        </header>
+
+        <main class="loading">
+            <div class="loading-screen">
+                <img src="img/loader.gif" alt="">
+            </div>
+            <div class="result-screen">
+                <div class="weather-image"></div>
+                <div class="weather-temperature">
+                    <span class="temp"></span>
+                    <span class="unit">°C</span>
+                </div>
+                <div class="weather-location"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
